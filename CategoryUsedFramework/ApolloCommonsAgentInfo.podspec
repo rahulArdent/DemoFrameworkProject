@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
     s.name             = 'ApolloCommonsAgentInfo'
     s.version          = '0.1.1'
-    s.summary          = 'ApolloCommons comprises of all utils and categories required by ZETA'
-    s.homepage         = 'http://phab.corp.zeta.in/diffusion/IAPOLLOCOMMONS/'
+    s.summary          = 'ApolloCommons comprises of all utils and categories required by org'
+    s.homepage         = 'http://phab.corp.org.in/diffusion/IAPOLLOCOMMONS/'
     s.license          = { :type => 'COMMERCIAL', :text => 'Property of Better world technologies' }
     s.author           = 'Better world technologies'
     s.source           = { :http => 'file:' + __dir__ + '/build/ApolloCommonsAgentInfo.framework.zip' }
