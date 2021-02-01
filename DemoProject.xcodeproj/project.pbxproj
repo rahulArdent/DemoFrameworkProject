@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44A73819D6A47AF812BC5286 /* Pods_DemoProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12CBE7D53DD4B2884F48FD3D /* Pods_DemoProject.framework */; };
 		B062055C25C7BC3B0052C13C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B062055B25C7BC3B0052C13C /* AppDelegate.m */; };
 		B062055F25C7BC3B0052C13C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B062055E25C7BC3B0052C13C /* SceneDelegate.m */; };
 		B062056225C7BC3B0052C13C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B062056125C7BC3B0052C13C /* ViewController.m */; };
@@ -14,12 +15,12 @@
 		B062056725C7BC3D0052C13C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B062056625C7BC3D0052C13C /* Assets.xcassets */; };
 		B062056A25C7BC3D0052C13C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B062056825C7BC3D0052C13C /* LaunchScreen.storyboard */; };
 		B062056D25C7BC3D0052C13C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B062056C25C7BC3D0052C13C /* main.m */; };
-		F072E6026AB57E2512EF023C /* Pods_DemoProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD4676030BE11B82A868F206 /* Pods_DemoProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		533CFBE5F3E416E42F45C78A /* Pods-DemoProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoProject.debug.xcconfig"; path = "Target Support Files/Pods-DemoProject/Pods-DemoProject.debug.xcconfig"; sourceTree = "<group>"; };
-		91A385E9A390346A2AE3E823 /* Pods-DemoProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoProject.release.xcconfig"; path = "Target Support Files/Pods-DemoProject/Pods-DemoProject.release.xcconfig"; sourceTree = "<group>"; };
+		12CBE7D53DD4B2884F48FD3D /* Pods_DemoProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		155FE80378B8D848F0C1A2F3 /* Pods-DemoProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoProject.debug.xcconfig"; path = "Target Support Files/Pods-DemoProject/Pods-DemoProject.debug.xcconfig"; sourceTree = "<group>"; };
+		55595029FBB15201ED0A00DC /* Pods-DemoProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoProject.release.xcconfig"; path = "Target Support Files/Pods-DemoProject/Pods-DemoProject.release.xcconfig"; sourceTree = "<group>"; };
 		B062055725C7BC3B0052C13C /* DemoProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B062055A25C7BC3B0052C13C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B062055B25C7BC3B0052C13C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -32,7 +33,6 @@
 		B062056925C7BC3D0052C13C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B062056B25C7BC3D0052C13C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B062056C25C7BC3D0052C13C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DD4676030BE11B82A868F206 /* Pods_DemoProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,17 +40,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F072E6026AB57E2512EF023C /* Pods_DemoProject.framework in Frameworks */,
+				44A73819D6A47AF812BC5286 /* Pods_DemoProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A46DF93DAD51406F4462CCF4 /* Frameworks */ = {
+		76A7432C63C1118B7B874E89 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DD4676030BE11B82A868F206 /* Pods_DemoProject.framework */,
+				12CBE7D53DD4B2884F48FD3D /* Pods_DemoProject.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -61,7 +61,7 @@
 				B062055925C7BC3B0052C13C /* DemoProject */,
 				B062055825C7BC3B0052C13C /* Products */,
 				D74EF1099226DC1B7E7BF5BA /* Pods */,
-				A46DF93DAD51406F4462CCF4 /* Frameworks */,
+				76A7432C63C1118B7B874E89 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,8 +94,8 @@
 		D74EF1099226DC1B7E7BF5BA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				533CFBE5F3E416E42F45C78A /* Pods-DemoProject.debug.xcconfig */,
-				91A385E9A390346A2AE3E823 /* Pods-DemoProject.release.xcconfig */,
+				155FE80378B8D848F0C1A2F3 /* Pods-DemoProject.debug.xcconfig */,
+				55595029FBB15201ED0A00DC /* Pods-DemoProject.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -107,11 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B062057025C7BC3D0052C13C /* Build configuration list for PBXNativeTarget "DemoProject" */;
 			buildPhases = (
-				8C6B664615E045C1424E4EB1 /* [CP] Check Pods Manifest.lock */,
+				97FA1B092DE8A85E352823A8 /* [CP] Check Pods Manifest.lock */,
 				B062055325C7BC3B0052C13C /* Sources */,
 				B062055425C7BC3B0052C13C /* Frameworks */,
 				B062055525C7BC3B0052C13C /* Resources */,
-				346C49E1F9B2DD51D67B0861 /* [CP] Embed Pods Frameworks */,
+				09CFCAE293A8589BDD2958DB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -168,7 +168,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		346C49E1F9B2DD51D67B0861 /* [CP] Embed Pods Frameworks */ = {
+		09CFCAE293A8589BDD2958DB /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -185,7 +185,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoProject/Pods-DemoProject-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8C6B664615E045C1424E4EB1 /* [CP] Check Pods Manifest.lock */ = {
+		97FA1B092DE8A85E352823A8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -355,7 +355,7 @@
 		};
 		B062057125C7BC3D0052C13C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 533CFBE5F3E416E42F45C78A /* Pods-DemoProject.debug.xcconfig */;
+			baseConfigurationReference = 155FE80378B8D848F0C1A2F3 /* Pods-DemoProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -368,14 +368,6 @@
 					"$(inherited)",
 					"-ObjC",
 					"-all_load",
-					"-framework",
-					"\"ApolloCommonsAgentInfo\"",
-					"-framework",
-					"\"ApolloCommonsJSONParsing\"",
-					"-framework",
-					"\"Foundation\"",
-					"-framework",
-					"\"Mantle\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = TestApp.DemoProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -385,7 +377,7 @@
 		};
 		B062057225C7BC3D0052C13C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 91A385E9A390346A2AE3E823 /* Pods-DemoProject.release.xcconfig */;
+			baseConfigurationReference = 55595029FBB15201ED0A00DC /* Pods-DemoProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -398,14 +390,6 @@
 					"$(inherited)",
 					"-ObjC",
 					"-all_load",
-					"-framework",
-					"\"ApolloCommonsAgentInfo\"",
-					"-framework",
-					"\"ApolloCommonsJSONParsing\"",
-					"-framework",
-					"\"Foundation\"",
-					"-framework",
-					"\"Mantle\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = TestApp.DemoProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
