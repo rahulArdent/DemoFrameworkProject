@@ -1,0 +1,23 @@
+{
+  "name": "ApolloCommonsAgentInfo",
+  "version": "0.1.1",
+  "summary": "ApolloCommons comprises of all utils and categories required by org",
+  "homepage": "http://phab.corp.org.in/diffusion/IAPOLLOCOMMONS/",
+  "license": {
+    "type": "COMMERCIAL",
+    "text": "Property of Better world technologies"
+  },
+  "authors": "Better world technologies",
+  "source": {
+    "http": "file:/Users/bogdanp/GitHub/DemoFrameworkProject/CategoryUsedFramework/build/ApolloCommonsAgentInfo.framework.zip"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "vendored_frameworks": "ApolloCommonsAgentInfo.framework",
+  "dependencies": {
+    "Mantle": [
+
+    ]
+  }
+}
