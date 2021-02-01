@@ -1,5 +1,9 @@
 # DemoFrameworkProject
 Demo Project to test Category in Framework
+To Run the main project:
+- Please do 
+      `pod install`
+
 There are two frameworks in this.
 - CategoryFramework
 - CategoryUsedFramework
