@@ -1,7 +1,3 @@
-source 'git@bitbucket.org:zetaengg/iapolloprivatecocoapodspecs.git'
-source 'git@github.com:CocoaPods/Specs.git'
-source 'git@bitbucket.org:zetaengg/iapollopubliccocoapodspecs.git'
-
 platform :ios, '10.0'
 
 
