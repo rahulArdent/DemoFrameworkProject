@@ -1,0 +1,23 @@
+{
+  "name": "ApolloCommonsJSONParsing",
+  "version": "0.1.1",
+  "summary": "ApolloCommons comprises of all utils and categories required by ZETA",
+  "homepage": "http://phab.corp.zeta.in/diffusion/IAPOLLOCOMMONS/",
+  "license": {
+    "type": "COMMERCIAL",
+    "text": "Property of Better world technologies"
+  },
+  "authors": "Better world technologies",
+  "source": {
+    "http": "file:/Users/rn/Desktop/DemoProject/CategoryFramework/build/ApolloCommonsJSONParsing.framework.zip"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "vendored_frameworks": "ApolloCommonsJSONParsing.framework",
+  "dependencies": {
+    "Mantle": [
+
+    ]
+  }
+}

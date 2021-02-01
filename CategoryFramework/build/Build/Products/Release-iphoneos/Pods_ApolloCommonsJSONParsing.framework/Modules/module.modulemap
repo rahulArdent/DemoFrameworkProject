@@ -1,0 +1,6 @@
+framework module Pods_ApolloCommonsJSONParsing {
+  umbrella header "Pods-ApolloCommonsJSONParsing-umbrella.h"
+
+  export *
+  module * { export * }
+}

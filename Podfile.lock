@@ -1,0 +1,31 @@
+PODS:
+  - ApolloCommonsAgentInfo (0.1.1):
+    - Mantle
+  - ApolloCommonsJSONParsing (0.1.1):
+    - Mantle
+  - Mantle (2.1.6):
+    - Mantle/extobjc (= 2.1.6)
+  - Mantle/extobjc (2.1.6)
+
+DEPENDENCIES:
+  - ApolloCommonsAgentInfo (from `CategoryUsedFramework/ApolloCommonsAgentInfo.podspec`)
+  - ApolloCommonsJSONParsing (from `CategoryFramework/ApolloCommonsJSONParsing.podspec`)
+
+SPEC REPOS:
+  trunk:
+    - Mantle
+
+EXTERNAL SOURCES:
+  ApolloCommonsAgentInfo:
+    :podspec: CategoryUsedFramework/ApolloCommonsAgentInfo.podspec
+  ApolloCommonsJSONParsing:
+    :podspec: CategoryFramework/ApolloCommonsJSONParsing.podspec
+
+SPEC CHECKSUMS:
+  ApolloCommonsAgentInfo: 6f3a186db11656a7354c56ced3047ea505058af2
+  ApolloCommonsJSONParsing: f92ea75c0fed6f8ccad73d2d548c5c3f52c82f72
+  Mantle: 4c0ed6ce47c96eccc4dc3bb071deb3def0e2c3be
+
+PODFILE CHECKSUM: b3fc8b860795efaf26f5ade162552185a8da307f
+
+COCOAPODS: 1.10.0

@@ -1,0 +1,25 @@
+PODS:
+  - ApolloCommonsJSONParsing (0.1.1):
+    - Mantle
+  - Mantle (2.1.6):
+    - Mantle/extobjc (= 2.1.6)
+  - Mantle/extobjc (2.1.6)
+
+DEPENDENCIES:
+  - ApolloCommonsJSONParsing (from `../CategoryFramework/ApolloCommonsJSONParsing.podspec`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Mantle
+
+EXTERNAL SOURCES:
+  ApolloCommonsJSONParsing:
+    :podspec: "../CategoryFramework/ApolloCommonsJSONParsing.podspec"
+
+SPEC CHECKSUMS:
+  ApolloCommonsJSONParsing: f92ea75c0fed6f8ccad73d2d548c5c3f52c82f72
+  Mantle: 4c0ed6ce47c96eccc4dc3bb071deb3def0e2c3be
+
+PODFILE CHECKSUM: 003612d7b31ab573f5474f70bb4f78f9c8dd58a2
+
+COCOAPODS: 1.10.0

@@ -1,0 +1,9 @@
+
+platform :ios, '10.0'
+
+
+# Install dependencies from orinal podpsec to build the framework
+use_frameworks!
+target 'ApolloCommonsJSONParsing' do
+  pod 'Mantle'
+end

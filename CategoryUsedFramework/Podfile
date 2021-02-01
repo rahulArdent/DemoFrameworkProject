@@ -1,0 +1,11 @@
+source 'git@bitbucket.org:zetaengg/iapolloprivatecocoapodspecs.git'
+source 'git@github.com:CocoaPods/Specs.git'
+source 'git@bitbucket.org:zetaengg/iapollopubliccocoapodspecs.git'
+
+platform :ios, '10.0'
+
+
+# Install dependencies from orinal podpsec to build the framework
+target 'ApolloCommonsAgentInfo' do
+  pod 'ApolloCommonsJSONParsing', :podspec => "../CategoryFramework/ApolloCommonsJSONParsing.podspec"
+end

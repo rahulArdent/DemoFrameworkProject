@@ -1,0 +1,21 @@
+dependencies: \
+  /Users/rn/Desktop/CategoryFramework/Categories/MTLModel+AdditionalData.m \
+  /Users/rn/Desktop/CategoryFramework/PrefixHeader.pch \
+  /Users/rn/Desktop/CategoryFramework/Categories/MTLModel+AdditionalData.h \
+  /Users/rn/Desktop/CategoryFramework/build/Build/Products/Release-iphoneos/Mantle/Mantle.framework/Modules/module.modulemap \
+  /Users/rn/Desktop/CategoryFramework/build/Build/Products/Release-iphoneos/Mantle/Mantle.framework/Headers/NSValueTransformer+MTLPredefinedTransformerAdditions.h \
+  /Users/rn/Desktop/CategoryFramework/build/Build/Products/Release-iphoneos/Mantle/Mantle.framework/Headers/NSValueTransformer+MTLInversionAdditions.h \
+  /Users/rn/Desktop/CategoryFramework/build/Build/Products/Release-iphoneos/Mantle/Mantle.framework/Headers/NSObject+MTLComparisonAdditions.h \
+  /Users/rn/Desktop/CategoryFramework/build/Build/Products/Release-iphoneos/Mantle/Mantle.framework/Headers/NSDictionary+MTLMappingAdditions.h \
+  /Users/rn/Desktop/CategoryFramework/build/Build/Products/Release-iphoneos/Mantle/Mantle.framework/Headers/NSDictionary+MTLManipulationAdditions.h \
+  /Users/rn/Desktop/CategoryFramework/build/Build/Products/Release-iphoneos/Mantle/Mantle.framework/Headers/NSArray+MTLManipulationAdditions.h \
+  /Users/rn/Desktop/CategoryFramework/build/Build/Products/Release-iphoneos/Mantle/Mantle.framework/Headers/MTLTransformerErrorHandling.h \
+  /Users/rn/Desktop/CategoryFramework/build/Build/Products/Release-iphoneos/Mantle/Mantle.framework/Headers/MTLValueTransformer.h \
+  /Users/rn/Desktop/CategoryFramework/build/Build/Products/Release-iphoneos/Mantle/Mantle.framework/Headers/MTLModel+NSCoding.h \
+  /Users/rn/Desktop/CategoryFramework/build/Build/Products/Release-iphoneos/Mantle/Mantle.framework/Headers/MTLModel.h \
+  /Users/rn/Desktop/CategoryFramework/build/Build/Products/Release-iphoneos/Mantle/Mantle.framework/Headers/MTLJSONAdapter.h \
+  /Users/rn/Desktop/CategoryFramework/build/Build/Products/Release-iphoneos/Mantle/Mantle.framework/Headers/Mantle.h \
+  /Users/rn/Desktop/CategoryFramework/build/Build/Products/Release-iphoneos/Mantle/Mantle.framework/Headers/NSError+MTLModelException.h \
+  /Users/rn/Desktop/CategoryFramework/build/Build/Products/Release-iphoneos/Mantle/Mantle.framework/Headers/NSDictionary+MTLJSONKeyPath.h \
+  /Users/rn/Desktop/CategoryFramework/build/Build/Products/Release-iphoneos/Mantle/Mantle.framework/Headers/MTLReflection.h \
+  /Users/rn/Desktop/CategoryFramework/build/Build/Products/Release-iphoneos/Mantle/Mantle.framework/Headers/Mantle-umbrella.h
