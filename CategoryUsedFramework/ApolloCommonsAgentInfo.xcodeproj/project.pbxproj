@@ -14,24 +14,24 @@
 		B062057925C7CA580052C13C /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B062057725C7CA580052C13C /* TestModel.m */; };
 		B062057C25C7CA8B0052C13C /* TestModelManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B062057A25C7CA8B0052C13C /* TestModelManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B062057D25C7CA8B0052C13C /* TestModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B062057B25C7CA8B0052C13C /* TestModelManager.m */; };
-		EA14E554D428FD564850D544 /* libPods-ApolloCommonsAgentInfo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1593C6D4FFA814C16AFDD4C3 /* libPods-ApolloCommonsAgentInfo.a */; };
+		D8C09281D0658ADDFDEDE602 /* Pods_ApolloCommonsAgentInfo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E086259F4FE87CFEC460CB /* Pods_ApolloCommonsAgentInfo.framework */; };
 		EDCA760BCC321AB26D8D009F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E972BF40399C6E97653ACF /* UIKit.framework */; };
 		FD2EB50497870DF540780FA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50CD439F6EB2D90D7E30B166 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1593C6D4FFA814C16AFDD4C3 /* libPods-ApolloCommonsAgentInfo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ApolloCommonsAgentInfo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FDC966358EDB3E5BECE7A07 /* Pods-ApolloCommonsAgentInfo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApolloCommonsAgentInfo.release.xcconfig"; path = "Target Support Files/Pods-ApolloCommonsAgentInfo/Pods-ApolloCommonsAgentInfo.release.xcconfig"; sourceTree = "<group>"; };
 		50CD439F6EB2D90D7E30B166 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5CD914F978067898242C02DA /* ApolloCommonsAgentInfo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ApolloCommonsAgentInfo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E972BF40399C6E97653ACF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		6CE65B6063FB9E83FFF87C07 /* Pods-ApolloCommonsAgentInfo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApolloCommonsAgentInfo.release.xcconfig"; path = "Target Support Files/Pods-ApolloCommonsAgentInfo/Pods-ApolloCommonsAgentInfo.release.xcconfig"; sourceTree = "<group>"; };
+		70E086259F4FE87CFEC460CB /* Pods_ApolloCommonsAgentInfo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApolloCommonsAgentInfo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E9C653B9A1A9293C376E2D2 /* PrefixHeader.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		B062057625C7CA580052C13C /* TestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
 		B062057725C7CA580052C13C /* TestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
 		B062057A25C7CA8B0052C13C /* TestModelManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestModelManager.h; sourceTree = "<group>"; };
 		B062057B25C7CA8B0052C13C /* TestModelManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestModelManager.m; sourceTree = "<group>"; };
+		B19CBA27BEE4852B1AB2928A /* Pods-ApolloCommonsAgentInfo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApolloCommonsAgentInfo.debug.xcconfig"; path = "Target Support Files/Pods-ApolloCommonsAgentInfo/Pods-ApolloCommonsAgentInfo.debug.xcconfig"; sourceTree = "<group>"; };
 		D7624230025A212EC0AB3844 /* Universal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Universal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F21747EE4C52BDD58B163581 /* Pods-ApolloCommonsAgentInfo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApolloCommonsAgentInfo.debug.xcconfig"; path = "Target Support Files/Pods-ApolloCommonsAgentInfo/Pods-ApolloCommonsAgentInfo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +41,7 @@
 			files = (
 				FD2EB50497870DF540780FA2 /* Foundation.framework in Frameworks */,
 				EDCA760BCC321AB26D8D009F /* UIKit.framework in Frameworks */,
-				EA14E554D428FD564850D544 /* libPods-ApolloCommonsAgentInfo.a in Frameworks */,
+				D8C09281D0658ADDFDEDE602 /* Pods_ApolloCommonsAgentInfo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,7 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				8BCC691126545185FB9619CD /* iOS */,
-				1593C6D4FFA814C16AFDD4C3 /* libPods-ApolloCommonsAgentInfo.a */,
+				70E086259F4FE87CFEC460CB /* Pods_ApolloCommonsAgentInfo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -101,8 +101,8 @@
 		F19A7B732F58F0085B3AF307 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F21747EE4C52BDD58B163581 /* Pods-ApolloCommonsAgentInfo.debug.xcconfig */,
-				2FDC966358EDB3E5BECE7A07 /* Pods-ApolloCommonsAgentInfo.release.xcconfig */,
+				B19CBA27BEE4852B1AB2928A /* Pods-ApolloCommonsAgentInfo.debug.xcconfig */,
+				6CE65B6063FB9E83FFF87C07 /* Pods-ApolloCommonsAgentInfo.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -127,7 +127,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 91611CF5B0D365C77AA825D0 /* Build configuration list for PBXNativeTarget "ApolloCommonsAgentInfo" */;
 			buildPhases = (
-				A35D1E40CFF00B4D76C1491A /* [CP] Check Pods Manifest.lock */,
+				4181DF10A98F81CF8F05FF55 /* [CP] Check Pods Manifest.lock */,
 				38A05736439294E5300520F4 /* Sources */,
 				1A17EB5DF9D17B5FFCCDFC58 /* Headers */,
 				7B8518B2F9CED49D9F0C8AA2 /* Frameworks */,
@@ -196,25 +196,7 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		454D8D7806FF74552E9B4AD1 /* Custom Script Phase */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Custom Script Phase";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# 1\n# Set bash script to exit immediately if any commands fail.\nset -e\n# 2\n# Setup some constants for use later on.\nFRAMEWORK_NAME=\"ApolloCommonsAgentInfo\"\nOUTPUT_DIR=\"${SRCROOT}/build\"\n# 3\n# If remnants from a previous build exist, delete them.\nif [ -d \"${OUTPUT_DIR}\" ]; then\nrm -rf \"${OUTPUT_DIR}\"\nfi\n# 4\n# Build the framework for device and for simulator (using\n# all needed architectures).\n\nxcodebuild -workspace \"${FRAMEWORK_NAME}.xcworkspace\" -scheme \"${FRAMEWORK_NAME}-Release\" -configuration Release -arch arm64 -arch armv7 -arch armv7s only_active_arch=no defines_module=yes -sdk \"iphoneos\" ENABLE_BITCODE=NO -derivedDataPath \"${OUTPUT_DIR}\"\nxcodebuild -workspace \"${FRAMEWORK_NAME}.xcworkspace\" -scheme \"${FRAMEWORK_NAME}-Release\" -configuration Release -arch x86_64 -arch i386 only_active_arch=no defines_module=yes -sdk \"iphonesimulator\" ENABLE_BITCODE=NO -derivedDataPath \"${OUTPUT_DIR}\"\n\n# 5\n# Remove .framework file if exists from previous run.\nif [ -d \"${OUTPUT_DIR}/${FRAMEWORK_NAME}.framework\" ]; then\nrm -rf \"${OUTPUT_DIR}/${FRAMEWORK_NAME}.framework\"\nfi\n# 6\n# Copy the device version of framework.\ncp -r \"${OUTPUT_DIR}/Build/Products/Release-iphoneos/${FRAMEWORK_NAME}.framework\" \"${OUTPUT_DIR}/${FRAMEWORK_NAME}.framework\"\n# 7\n# Replace the framework executable within the framework with\n# a new version created by merging the device and simulator\n# frameworks' executables with lipo.\nlipo -create -output \"${OUTPUT_DIR}/${FRAMEWORK_NAME}.framework/${FRAMEWORK_NAME}\" \"${OUTPUT_DIR}/Build/Products/Release-iphoneos/${FRAMEWORK_NAME}.framework/${FRAMEWORK_NAME}\" \"${OUTPUT_DIR}/Build/Products/Release-iphonesimulator/${FRAMEWORK_NAME}.framework/${FRAMEWORK_NAME}\"\n# 8\n# Copy the Swift module mappings for the simulator into the\n# framework. The device mappings already exist from step 6.\nif [ -d \"${OUTPUT_DIR}/Build/Products/Release-iphonesimulator/${FRAMEWORK_NAME}.framework/Modules/${FRAMEWORK_NAME}.swiftmodule/\" ]; then\ncp -r \"${OUTPUT_DIR}/Build/Products/Release-iphonesimulator/${FRAMEWORK_NAME}.framework/Modules/${FRAMEWORK_NAME}.swiftmodule/\" \"${OUTPUT_DIR}/${FRAMEWORK_NAME}.framework/Modules/${FRAMEWORK_NAME}.swiftmodule\"\nfi\n# cp -r \"${OUTPUT_DIR}/Build/Products/Release-iphonesimulator/${FRAMEWORK_NAME}.framework/Modules/${FRAMEWORK_NAME}.swiftmodule/\" \"${OUTPUT_DIR}/${FRAMEWORK_NAME}.framework/Modules/${FRAMEWORK_NAME}.swiftmodule\"\n";
-		};
-		A35D1E40CFF00B4D76C1491A /* [CP] Check Pods Manifest.lock */ = {
+		4181DF10A98F81CF8F05FF55 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -236,6 +218,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		454D8D7806FF74552E9B4AD1 /* Custom Script Phase */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Custom Script Phase";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# 1\n# Set bash script to exit immediately if any commands fail.\nset -e\n# 2\n# Setup some constants for use later on.\nFRAMEWORK_NAME=\"ApolloCommonsAgentInfo\"\nOUTPUT_DIR=\"${SRCROOT}/build\"\n# 3\n# If remnants from a previous build exist, delete them.\nif [ -d \"${OUTPUT_DIR}\" ]; then\nrm -rf \"${OUTPUT_DIR}\"\nfi\n# 4\n# Build the framework for device and for simulator (using\n# all needed architectures).\n\nxcodebuild -workspace \"${FRAMEWORK_NAME}.xcworkspace\" -scheme \"${FRAMEWORK_NAME}-Release\" -configuration Release -arch arm64 -arch armv7 -arch armv7s only_active_arch=no defines_module=yes -sdk \"iphoneos\" ENABLE_BITCODE=NO -derivedDataPath \"${OUTPUT_DIR}\"\nxcodebuild -workspace \"${FRAMEWORK_NAME}.xcworkspace\" -scheme \"${FRAMEWORK_NAME}-Release\" -configuration Release -arch x86_64 -arch i386 only_active_arch=no defines_module=yes -sdk \"iphonesimulator\" ENABLE_BITCODE=NO -derivedDataPath \"${OUTPUT_DIR}\"\n\n# 5\n# Remove .framework file if exists from previous run.\nif [ -d \"${OUTPUT_DIR}/${FRAMEWORK_NAME}.framework\" ]; then\nrm -rf \"${OUTPUT_DIR}/${FRAMEWORK_NAME}.framework\"\nfi\n# 6\n# Copy the device version of framework.\ncp -r \"${OUTPUT_DIR}/Build/Products/Release-iphoneos/${FRAMEWORK_NAME}.framework\" \"${OUTPUT_DIR}/${FRAMEWORK_NAME}.framework\"\n# 7\n# Replace the framework executable within the framework with\n# a new version created by merging the device and simulator\n# frameworks' executables with lipo.\nlipo -create -output \"${OUTPUT_DIR}/${FRAMEWORK_NAME}.framework/${FRAMEWORK_NAME}\" \"${OUTPUT_DIR}/Build/Products/Release-iphoneos/${FRAMEWORK_NAME}.framework/${FRAMEWORK_NAME}\" \"${OUTPUT_DIR}/Build/Products/Release-iphonesimulator/${FRAMEWORK_NAME}.framework/${FRAMEWORK_NAME}\"\n# 8\n# Copy the Swift module mappings for the simulator into the\n# framework. The device mappings already exist from step 6.\nif [ -d \"${OUTPUT_DIR}/Build/Products/Release-iphonesimulator/${FRAMEWORK_NAME}.framework/Modules/${FRAMEWORK_NAME}.swiftmodule/\" ]; then\ncp -r \"${OUTPUT_DIR}/Build/Products/Release-iphonesimulator/${FRAMEWORK_NAME}.framework/Modules/${FRAMEWORK_NAME}.swiftmodule/\" \"${OUTPUT_DIR}/${FRAMEWORK_NAME}.framework/Modules/${FRAMEWORK_NAME}.swiftmodule\"\nfi\n# cp -r \"${OUTPUT_DIR}/Build/Products/Release-iphonesimulator/${FRAMEWORK_NAME}.framework/Modules/${FRAMEWORK_NAME}.swiftmodule/\" \"${OUTPUT_DIR}/${FRAMEWORK_NAME}.framework/Modules/${FRAMEWORK_NAME}.swiftmodule\"\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -253,7 +253,7 @@
 /* Begin XCBuildConfiguration section */
 		15853B292E0098E3552A7B07 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2FDC966358EDB3E5BECE7A07 /* Pods-ApolloCommonsAgentInfo.release.xcconfig */;
+			baseConfigurationReference = 6CE65B6063FB9E83FFF87C07 /* Pods-ApolloCommonsAgentInfo.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -270,11 +270,6 @@
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
-					"-l\"Mantle\"",
-					"-framework",
-					"\"ApolloCommonsJSONParsing\"",
-					"-framework",
-					"\"Foundation\"",
 					"-all_load",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.apollo.ApolloCommonsAgentInfo;
@@ -468,7 +463,7 @@
 		};
 		F59332495685607CBDF53446 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F21747EE4C52BDD58B163581 /* Pods-ApolloCommonsAgentInfo.debug.xcconfig */;
+			baseConfigurationReference = B19CBA27BEE4852B1AB2928A /* Pods-ApolloCommonsAgentInfo.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -485,11 +480,6 @@
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
-					"-l\"Mantle\"",
-					"-framework",
-					"\"ApolloCommonsJSONParsing\"",
-					"-framework",
-					"\"Foundation\"",
 					"-all_load",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.apollo.ApolloCommonsAgentInfo;

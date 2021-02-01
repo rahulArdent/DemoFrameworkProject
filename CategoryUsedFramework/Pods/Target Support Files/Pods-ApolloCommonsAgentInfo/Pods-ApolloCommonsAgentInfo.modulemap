@@ -1,0 +1,6 @@
+framework module Pods_ApolloCommonsAgentInfo {
+  umbrella header "Pods-ApolloCommonsAgentInfo-umbrella.h"
+
+  export *
+  module * { export * }
+}

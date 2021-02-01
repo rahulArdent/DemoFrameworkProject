@@ -9,7 +9,7 @@ DEPENDENCIES:
   - ApolloCommonsJSONParsing (from `../CategoryFramework/ApolloCommonsJSONParsing.podspec`)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  trunk:
     - Mantle
 
 EXTERNAL SOURCES:
@@ -17,9 +17,9 @@ EXTERNAL SOURCES:
     :podspec: "../CategoryFramework/ApolloCommonsJSONParsing.podspec"
 
 SPEC CHECKSUMS:
-  ApolloCommonsJSONParsing: f92ea75c0fed6f8ccad73d2d548c5c3f52c82f72
+  ApolloCommonsJSONParsing: cf8f75f956f5c7204a5d42220d1d46dbe0067815
   Mantle: 4c0ed6ce47c96eccc4dc3bb071deb3def0e2c3be
 
-PODFILE CHECKSUM: 003612d7b31ab573f5474f70bb4f78f9c8dd58a2
+PODFILE CHECKSUM: 7eb56e1e8c1140642f220da5fd795d4c118b8c30
 
-COCOAPODS: 1.10.0
+COCOAPODS: 1.9.3
